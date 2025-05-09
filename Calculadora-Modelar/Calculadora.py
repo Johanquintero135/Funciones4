@@ -28,3 +28,11 @@ while True:
         print("Resultado:", operaciones.resta(a, b))
     elif opcion == "3":
         print("Resultado:", operaciones.multiplicacion(a, b))
+    elif opcion == "4":
+        print("Resultado:", operaciones.division(a, b))
+    elif opcion == "5":
+        print("Resultado:", operaciones.potencia(a, b))
+    elif opcion == "6":
+        print("Resultado:", operaciones.division_entera(a, b))
+    else:
+        print("Opción inválida.")
